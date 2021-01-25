@@ -46,13 +46,13 @@ def principal():
     y_2 = [14, 15, 12, 34, 34, 40, 61, 77, 72, 122, 129, 177]
     y_3 = [11, 13, 9, 36, 36, 39, 98, 90, 96, 155, 137, 142]
 
-    modelo_regressao(x, y, 'red')
-    modelo_regressao(x_, y_1, 'grey')
-    modelo_regressao(x_, y_2, 'green')
+    modelo_regressao(x, y, 'blue')
+    modelo_regressao(x_, y_1, 'orange')
+    modelo_regressao(x_, y_2, 'grey')
     modelo_regressao(x_, y_3, 'yellow')
     
-    plt.scatter(x_, y_1, color = ['grey'])
-    plt.scatter(x_, y_2, color = ['green'])
+    plt.scatter(x_, y_1, color = ['orange'])
+    plt.scatter(x_, y_2, color = ['grey'])
     plt.scatter(x_, y_3, color = ['yellow'])
     plt.grid(True)
     plt.show()
